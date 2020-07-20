@@ -9,4 +9,6 @@
 #ifndef MCoreCategory_h
 #define MCoreCategory_h
 
+#import "UIViewController+Ex.h"
+
 #endif /* MCoreCategory_h */

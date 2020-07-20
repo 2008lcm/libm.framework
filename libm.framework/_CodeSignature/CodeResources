@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/MCoreCategory.h</key>
 		<data>
-		/1Xoa34/bL1wNdBIlpbESmEPOFg=
+		Q/x6gxngS9/G4fQRMhVS0+MQDZE=
 		</data>
 		<key>Headers/MCoreFile.h</key>
 		<data>
@@ -116,13 +116,17 @@
 		<data>
 		8kTDBTJbqY0Cp37RRH9jmvMOcrM=
 		</data>
+		<key>Headers/UIViewController+Ex.h</key>
+		<data>
+		T5NvDfqe+qxYuWvOX2b+qYmTMrI=
+		</data>
 		<key>Headers/libm.h</key>
 		<data>
-		6+1KWy2HrPSx20l6PtbsFD+x20k=
+		7ltEUF8mZWZ560YL+iXKeEC2l9c=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/yfRqY8dgBUDfg8QbG5tWnzsyVw=
+		GrEHcGryd51KRMQkG8HDy7c1yPo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -161,11 +165,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/1Xoa34/bL1wNdBIlpbESmEPOFg=
+			Q/x6gxngS9/G4fQRMhVS0+MQDZE=
 			</data>
 			<key>hash2</key>
 			<data>
-			/wOyyGE1PDNJFHCiGW3ibx71HAkf9s4n1HdaHHjwG58=
+			F2fLkT8MRnJ2jbeCCeK1MGCN9xsTPvCFAPpXnmTHPkI=
 			</data>
 		</dict>
 		<key>Headers/MCoreFile.h</key>
@@ -443,15 +447,26 @@
 			6lqAECRdyhDOh4+2My3gDVBAooQueViG/AtPnSxKKLM=
 			</data>
 		</dict>
+		<key>Headers/UIViewController+Ex.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			T5NvDfqe+qxYuWvOX2b+qYmTMrI=
+			</data>
+			<key>hash2</key>
+			<data>
+			mFJ8kDEJFWlAhrbBtk8z7O9gpExFgjbOiVW2nRUA6Vs=
+			</data>
+		</dict>
 		<key>Headers/libm.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6+1KWy2HrPSx20l6PtbsFD+x20k=
+			7ltEUF8mZWZ560YL+iXKeEC2l9c=
 			</data>
 			<key>hash2</key>
 			<data>
-			A0nEEvchnrGeFbRfQ1/b0xAQ9zqZDLG/Tla0vUmJUhA=
+			KNOrwNdSoJsYiseaFh4tsDQeCQfr+HbdbShpEvFE0rc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

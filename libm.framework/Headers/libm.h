@@ -48,6 +48,8 @@
 #import "MLoginFactory.h"
 #import "MWXLogin.h"
 #import "MWXMiniProgram.h"
+/// Category
+#import "UIViewController+Ex.h"
 
 FOUNDATION_EXPORT double libmVersionNumber;
 FOUNDATION_EXPORT const unsigned char libmVersionString[];
