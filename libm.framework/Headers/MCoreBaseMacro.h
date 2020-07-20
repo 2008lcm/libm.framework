@@ -35,30 +35,30 @@
 /// 单例实现文件
 #define __M_Shared_IMP(CLASS)                           \
                                                         \
-static CLASS *instance##_CLASS = nil;                   \
+static CLASS *instance_##CLASS = nil;                   \
                                                         \
 + (instancetype)shared##CLASS {                         \
 static dispatch_once_t onceToken;                       \
 dispatch_once(&onceToken, ^{                            \
-instance##_CLASS = [self new];                          \
+instance_##CLASS = [self new];                          \
 });                                                     \
-return instance##_CLASS;                                \
+return instance_##CLASS;                                \
 }                                                       \
                                                         \
 + (instancetype)allocWithZone:(struct _NSZone *)zone {  \
 static dispatch_once_t onceToken;                       \
 dispatch_once(&onceToken, ^{                            \
-instance##_CLASS = [super allocWithZone:zone];          \
+instance_##CLASS = [super allocWithZone:zone];          \
 });                                                     \
-return instance##_CLASS;                                \
+return instance_##CLASS;                                \
 }                                                       \
                                                         \
 - (instancetype)copyWithZone:(NSZone *)zone {           \
-return instance##_CLASS;                                \
+return instance_##CLASS;                                \
 }                                                       \
                                                         \
 - (instancetype)mutableCopyWithZone:(NSZone *)zone {    \
-return instance##_CLASS;                                \
+return instance_##CLASS;                                \
 }
 
 /* 引用定义 */

@@ -16,15 +16,15 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "libm.framework"
-  spec.version      = "1.0"
-  spec.summary      = "快速开发库"
+  spec.version      = "1.1"
+  spec.summary      = "libm framework"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "包含多个组件，便于快速开发。"
+  spec.description  = "libm framework for iOS use by Objective-C language."
 
   spec.homepage     = "https://github.com/2008lcm/libm.framework"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -52,9 +52,9 @@ Pod::Spec.new do |spec|
   #
 
   spec.author             = { "Ming" => "2008lcm@126.com" }
-  # Or just: spec.author    = "kangliang.liang"
-  # spec.authors            = { "kangliang.liang" => "liangliang.liang@plus.cn" }
-  # spec.social_media_url   = "https://twitter.com/kangliang.liang"
+  # Or just: spec.author    = "Ming"
+  # spec.authors            = { "Ming" => "2008lcm@126.com" }
+  # spec.social_media_url   = "https://twitter.com/Ming"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -89,7 +89,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  # spec.source_files  = "LibM", "libm.h"
+  
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -133,6 +134,9 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.dependency "MBProgressHUD"
   spec.dependency "AFNetworking"
+  spec.dependency "MJExtension"
+  spec.dependency "WechatOpenSDK"
 
+  spec.vendored_frameworks = 'libm.framework'
 
 end

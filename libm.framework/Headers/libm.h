@@ -18,6 +18,7 @@
 #endif
 #endif
 
+/// MCoreModule
 #import "MCoreHeader.h"
 #import "MCoreBase.h"
 #import "MCoreBaseMacro.h"
@@ -41,6 +42,12 @@
 #import "MCoreMediaError.h"
 #import "MCoreVideo.h"
 #import "MCorePlayer.h"
+/// MLoginModule
+#import "MLogin.h"
+#import "MLoginError.h"
+#import "MLoginFactory.h"
+#import "MWXLogin.h"
+#import "MWXMiniProgram.h"
 
 FOUNDATION_EXPORT double libmVersionNumber;
 FOUNDATION_EXPORT const unsigned char libmVersionString[];

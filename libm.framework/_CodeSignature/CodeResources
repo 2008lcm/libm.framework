@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/MCoreBaseMacro.h</key>
 		<data>
-		/gdW57GXJTb9+UdhEPQgdHFEn/I=
+		LS+m/6LRZlWKKqVlE//IQAHPYvM=
 		</data>
 		<key>Headers/MCoreCategory.h</key>
 		<data>
@@ -96,17 +96,33 @@
 		<data>
 		mY3ufN/BM/ZwPDaFkAMgg7kSTTc=
 		</data>
+		<key>Headers/MLogin.h</key>
+		<data>
+		8V4Cj3MSETGRlTcEMOlGFwEQZCM=
+		</data>
+		<key>Headers/MLoginError.h</key>
+		<data>
+		KXedzjOaSAxvF87d6TGmydo/OeE=
+		</data>
+		<key>Headers/MLoginFactory.h</key>
+		<data>
+		dzM6euUYRUyr1MSx+kcerL712xY=
+		</data>
+		<key>Headers/MWXLogin.h</key>
+		<data>
+		IVKTqHN7rPLGPAdRQMwH2Kn75Rc=
+		</data>
+		<key>Headers/MWXMiniProgram.h</key>
+		<data>
+		8kTDBTJbqY0Cp37RRH9jmvMOcrM=
+		</data>
 		<key>Headers/libm.h</key>
 		<data>
-		PyZSu/EkQjl3/jJHX982LC2JmOw=
+		6+1KWy2HrPSx20l6PtbsFD+x20k=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		F/ag++8ZTYYxnCltCeeMueTp7w0=
-		</data>
-		<key>LICENSE</key>
-		<data>
-		wpiJ5IV1ZZNafs1R8FO2B8wRfYQ=
+		/yfRqY8dgBUDfg8QbG5tWnzsyVw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -114,7 +130,7 @@
 		</data>
 		<key>README.md</key>
 		<data>
-		1H0PFXbCrtv39cmXlchPM7nQfz8=
+		jktEpOmtfCc/5xR/PIC95ULA3VM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -134,11 +150,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/gdW57GXJTb9+UdhEPQgdHFEn/I=
+			LS+m/6LRZlWKKqVlE//IQAHPYvM=
 			</data>
 			<key>hash2</key>
 			<data>
-			9dX9+UMpIXkVORmVCvfQIdBOAw+mKGVyG5wwqOpi/PA=
+			/oWS3oxe9ukSF6bg5ujSA4Rs3fB1Mn2I4KVjOJ5bnQ4=
 			</data>
 		</dict>
 		<key>Headers/MCoreCategory.h</key>
@@ -372,26 +388,70 @@
 			1UKmDFWuUnPxHlho+ZkGaXTCJtSfgK8iapxmwosQXcA=
 			</data>
 		</dict>
+		<key>Headers/MLogin.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8V4Cj3MSETGRlTcEMOlGFwEQZCM=
+			</data>
+			<key>hash2</key>
+			<data>
+			YbCBqB4z2gkLJmmGY5HZiCpYAKKaun6eFMY0ixqTzsI=
+			</data>
+		</dict>
+		<key>Headers/MLoginError.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KXedzjOaSAxvF87d6TGmydo/OeE=
+			</data>
+			<key>hash2</key>
+			<data>
+			YYWzknXaOLgi+I2eMT0XIVswVwtNU08mM7ZP1wLOSuM=
+			</data>
+		</dict>
+		<key>Headers/MLoginFactory.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dzM6euUYRUyr1MSx+kcerL712xY=
+			</data>
+			<key>hash2</key>
+			<data>
+			/6D610uhY2GLobT5BwhXqu0bpU5qR01S9+teoSajer4=
+			</data>
+		</dict>
+		<key>Headers/MWXLogin.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IVKTqHN7rPLGPAdRQMwH2Kn75Rc=
+			</data>
+			<key>hash2</key>
+			<data>
+			b4XErndPi340x6R5iMRzwRWnN7vK5zLZAshWXqbvi1o=
+			</data>
+		</dict>
+		<key>Headers/MWXMiniProgram.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8kTDBTJbqY0Cp37RRH9jmvMOcrM=
+			</data>
+			<key>hash2</key>
+			<data>
+			6lqAECRdyhDOh4+2My3gDVBAooQueViG/AtPnSxKKLM=
+			</data>
+		</dict>
 		<key>Headers/libm.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PyZSu/EkQjl3/jJHX982LC2JmOw=
+			6+1KWy2HrPSx20l6PtbsFD+x20k=
 			</data>
 			<key>hash2</key>
 			<data>
-			jIFUNFtcgc5JikIo20wsZ+X5W0XfVep0aKCBqsaKdsA=
-			</data>
-		</dict>
-		<key>LICENSE</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wpiJ5IV1ZZNafs1R8FO2B8wRfYQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			u73rQ/6hGSypy/UOfElwUBnYpw1nMpPGsuQWCVo/ebw=
+			A0nEEvchnrGeFbRfQ1/b0xAQ9zqZDLG/Tla0vUmJUhA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -409,11 +469,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1H0PFXbCrtv39cmXlchPM7nQfz8=
+			jktEpOmtfCc/5xR/PIC95ULA3VM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ts6jCZbmGbqR9NmwfpYnpNHzuLNMf1FBj/szL1Qer70=
+			/gKTf6/325EiBcmFT1PzorABK9C4kZZV6aPIep2IGJM=
 			</data>
 		</dict>
 	</dict>
