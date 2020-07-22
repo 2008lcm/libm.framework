@@ -8,6 +8,7 @@
 
 #ifndef MCoreNetError_h
 #define MCoreNetError_h
+#import <Foundation/Foundation.h>
 /// 网络模块错误定义
 static NSString *const M_NetErrorDomain = @"com.ming.error.core.net";
 static NSInteger const M_NetErrorCode_NoData = 300001;

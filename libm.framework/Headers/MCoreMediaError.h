@@ -8,6 +8,7 @@
 
 #ifndef MCoreMediaError_h
 #define MCoreMediaError_h
+#import <Foundation/Foundation.h>
 /// 媒体模块错误定义
 static NSString *const M_MediaErrorDomain = @"com.ming.error.core.media";
 static NSInteger const M_MediaErrorCode_Export_Cancelled = 400001;

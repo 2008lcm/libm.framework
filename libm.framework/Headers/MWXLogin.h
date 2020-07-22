@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 @class BaseReq;
 @class BaseResp;
 
-@protocol WeChatLoginDelegate <NSObject>
+@protocol WeChatDelegate <NSObject>
 @required
 - (void)onReq:(BaseReq *)req;
 - (void)onResp:(BaseResp *)resp;
@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 设置代理
 /// @param delegate WeChatLoginDelegate
-- (void)setDelegate:(id<WeChatLoginDelegate>)delegate;
+- (void)setDelegate:(id<WeChatDelegate>)delegate;
 
 /// 登录授权
 /// @param vc 当前界面对象

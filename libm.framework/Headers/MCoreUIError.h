@@ -8,6 +8,7 @@
 
 #ifndef MCoreUIError_h
 #define MCoreUIError_h
+#import <Foundation/Foundation.h>
 /// UI模块错误定义
 static NSString *const M_UIErrorDomain = @"com.ming.error.core.ui";
 #endif /* MCoreUIError_h */

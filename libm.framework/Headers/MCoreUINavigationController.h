@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-#define M_NavigationController          ((MBaseNavigationController *)self.navigationController)
+#define M_NavigationController          ((MCoreUINavigationController *)self.navigationController)
 #define M_NavigationBarHidden(Hidden)   (Hidden ? [M_NavigationController setBarHidden] : [M_NavigationController setBarShow])
 #define M_NavigationBarOpaque(Opaque) \
 (Opaque ? [M_NavigationController setBarOpaque] : [M_NavigationController setBarTransparent])

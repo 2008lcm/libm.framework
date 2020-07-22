@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/MCoreMediaError.h</key>
 		<data>
-		DfKkq1kGrCx+AZg5wg0zuFNb6+Q=
+		GieF/mGAT5OKJM20+QMDtrnZTiM=
 		</data>
 		<key>Headers/MCoreNet.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/MCoreNetError.h</key>
 		<data>
-		rdBGmxUDYS8uCzSd3+SzESQaXxk=
+		fLQA8/QhTpVs2HswRyA2AZApQN0=
 		</data>
 		<key>Headers/MCorePlayer.h</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Headers/MCoreStoreError.h</key>
 		<data>
-		XYkZukIZYH8fmGBVX64Yz8TIPiU=
+		V8JrDl9Yb9O+4YZF5BXQWthwao8=
 		</data>
 		<key>Headers/MCoreUI.h</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>Headers/MCoreUIError.h</key>
 		<data>
-		toj8oUkKHECsQAB1vfRPm3i6RW4=
+		/v8/uTNpn2ogZN9gwTqL3ZjHqW4=
 		</data>
 		<key>Headers/MCoreUINavigationController.h</key>
 		<data>
-		jA9ErkV9k+Ja6C32S6aaH8TFDaU=
+		NjgdKzlvDsWEiHLASP9dvIgnYeo=
 		</data>
 		<key>Headers/MCoreUIProgressHUD.h</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Headers/MLoginError.h</key>
 		<data>
-		KXedzjOaSAxvF87d6TGmydo/OeE=
+		IllQOyg8D6JCHWOGdRC/JKCBveg=
 		</data>
 		<key>Headers/MLoginFactory.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Headers/MWXLogin.h</key>
 		<data>
-		IVKTqHN7rPLGPAdRQMwH2Kn75Rc=
+		Iv2yMY4yRKMA54BUaH4oCDpHXq4=
 		</data>
 		<key>Headers/MWXMiniProgram.h</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GrEHcGryd51KRMQkG8HDy7c1yPo=
+		6+5is6/WJjVkE97O++gkYi4yDtk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -231,11 +231,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DfKkq1kGrCx+AZg5wg0zuFNb6+Q=
+			GieF/mGAT5OKJM20+QMDtrnZTiM=
 			</data>
 			<key>hash2</key>
 			<data>
-			91abIU5GRfMFHYMm8qFQeRHLAOqXSt5q0OmuI4ZSRNU=
+			LBkQidfK45Uxz8M9dS0yE3XqQiN9wxpCz5gPmAoD2tM=
 			</data>
 		</dict>
 		<key>Headers/MCoreNet.h</key>
@@ -253,11 +253,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rdBGmxUDYS8uCzSd3+SzESQaXxk=
+			fLQA8/QhTpVs2HswRyA2AZApQN0=
 			</data>
 			<key>hash2</key>
 			<data>
-			0mPEUJUGWjlU13RlOQStbVAxxjoMDOUhf6fDVIX/+HQ=
+			VmPuSb/uHlDhaxdGk2ymmuqywOAYSUdnckxZ+81MDuo=
 			</data>
 		</dict>
 		<key>Headers/MCorePlayer.h</key>
@@ -297,11 +297,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XYkZukIZYH8fmGBVX64Yz8TIPiU=
+			V8JrDl9Yb9O+4YZF5BXQWthwao8=
 			</data>
 			<key>hash2</key>
 			<data>
-			jZKL2eOcDfmSNjx3jjq5maWc/joBojTC2kUhZNW/WQY=
+			cSezJmyYpQgLFyu5GyLlaPv2uMcGBpwA0qnvO7Zs/TU=
 			</data>
 		</dict>
 		<key>Headers/MCoreUI.h</key>
@@ -319,22 +319,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			toj8oUkKHECsQAB1vfRPm3i6RW4=
+			/v8/uTNpn2ogZN9gwTqL3ZjHqW4=
 			</data>
 			<key>hash2</key>
 			<data>
-			fblJRNlfFc5pPfMoG4o5O1uZyVfbLXWYdCA5Fe1oyX8=
+			0bbRNiVN5hzuMUdj4TbNWESmJVv0zSrZIRccBKTdtOU=
 			</data>
 		</dict>
 		<key>Headers/MCoreUINavigationController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jA9ErkV9k+Ja6C32S6aaH8TFDaU=
+			NjgdKzlvDsWEiHLASP9dvIgnYeo=
 			</data>
 			<key>hash2</key>
 			<data>
-			noaDvcCHVOndxCep3biDSxbhpWMI1kBJUNH9dbhe9nM=
+			AnxbnQjPNOPo7eIH3NVkgXjNUTJau8haAQ37o50PoUo=
 			</data>
 		</dict>
 		<key>Headers/MCoreUIProgressHUD.h</key>
@@ -407,11 +407,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KXedzjOaSAxvF87d6TGmydo/OeE=
+			IllQOyg8D6JCHWOGdRC/JKCBveg=
 			</data>
 			<key>hash2</key>
 			<data>
-			YYWzknXaOLgi+I2eMT0XIVswVwtNU08mM7ZP1wLOSuM=
+			TnamjzgRm+H+lULG6e0RztSrcFfnkOjnIKxAOG9F618=
 			</data>
 		</dict>
 		<key>Headers/MLoginFactory.h</key>
@@ -429,11 +429,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IVKTqHN7rPLGPAdRQMwH2Kn75Rc=
+			Iv2yMY4yRKMA54BUaH4oCDpHXq4=
 			</data>
 			<key>hash2</key>
 			<data>
-			b4XErndPi340x6R5iMRzwRWnN7vK5zLZAshWXqbvi1o=
+			M1w6Ce2f7+xJfhJ0w4bKYcdUrHynfHBBDgt5NNcJpXk=
 			</data>
 		</dict>
 		<key>Headers/MWXMiniProgram.h</key>
