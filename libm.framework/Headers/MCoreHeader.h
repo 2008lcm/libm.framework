@@ -10,6 +10,7 @@
 #define MCoreHeader_h
 
 #import "MCoreBase.h"
+#import "MCoreDevice.h"
 #import "MCoreCategory.h"
 #import "MCoreUI.h"
 #import "MCoreStore.h"

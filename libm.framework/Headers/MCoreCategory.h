@@ -10,5 +10,8 @@
 #define MCoreCategory_h
 
 #import "UIViewController+Ex.h"
+#import "UIView+Ex.h"
+#import "UIColor+Ex.h"
+#import "NSString+Ex.h"
 
 #endif /* MCoreCategory_h */

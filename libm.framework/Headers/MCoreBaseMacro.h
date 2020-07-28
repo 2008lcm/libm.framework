@@ -13,8 +13,8 @@
 /// 空字符串
 #define M_EmptyString   @""
 #define M_NullString(STRING) \
-(!STRING || ![STRING isKindOfClass:[NSString class]] || [STRING isEqualToString:M_NullString] || \
-![STRING stringByTrimmingCharactersInSet:NSCharacterSet.whitespaceCharacterSet].length )
+(!STRING || ![STRING isKindOfClass:[NSString class]] || \
+![STRING stringByTrimmingCharactersInSet:NSCharacterSet.whitespaceCharacterSet].length)
 /// 本地化字符串获取
 #define M_LT(X)   NSLocalizedString(X, nil)
 
@@ -63,36 +63,70 @@ return instance_##CLASS;                                \
 
 /* 引用定义 */
 /// 弱引用
-#ifndef M_Weakify
+#ifndef M_weakify
     #if DEBUG
         #if __has_feature(objc_arc)
-        #define M_Weakify(object) autoreleasepool{} __weak __typeof__(object) weak##_##object = object;
+        #define M_weakify(object) autoreleasepool{} __weak __typeof__(object) weak##_##object = object;
         #else
-        #define M_Weakify(object) autoreleasepool{} __block __typeof__(object) block##_##object = object;
+        #define M_weakify(object) autoreleasepool{} __block __typeof__(object) block##_##object = object;
         #endif
     #else
         #if __has_feature(objc_arc)
-        #define M_Weakify(object) try{} @finally{} {} __weak __typeof__(object) weak##_##object = object;
+        #define M_weakify(object) try{} @finally{} {} __weak __typeof__(object) weak##_##object = object;
         #else
-        #define M_Weakify(object) try{} @finally{} {} __block __typeof__(object) block##_##object = object;
+        #define M_weakify(object) try{} @finally{} {} __block __typeof__(object) block##_##object = object;
         #endif
     #endif
 #endif
 /// 强引用
-#ifndef M_Strongify
+#ifndef M_strongify
     #if DEBUG
         #if __has_feature(objc_arc)
-        #define M_Strongify(object) autoreleasepool{} __typeof__(object) object = weak##_##object;
+        #define M_strongify(object) autoreleasepool{} __typeof__(object) object = weak##_##object;
         #else
-        #define M_Strongify(object) autoreleasepool{} __typeof__(object) object = block##_##object;
+        #define M_strongify(object) autoreleasepool{} __typeof__(object) object = block##_##object;
         #endif
     #else
         #if __has_feature(objc_arc)
-        #define M_Strongify(object) try{} @finally{} __typeof__(object) object = weak##_##object;
+        #define M_strongify(object) try{} @finally{} __typeof__(object) object = weak##_##object;
         #else
-        #define M_Strongify(object) try{} @finally{} __typeof__(object) object = block##_##object;
+        #define M_strongify(object) try{} @finally{} __typeof__(object) object = block##_##object;
         #endif
     #endif
+#endif
+
+/* 输出定义 */
+/// 默认开启所在方法和行号打印
+#define M_LogCode 1
+#ifdef DEBUG
+/// Debug 打印
+#if !M_LogCode
+#define MLogFile     NSLog(@"%s", __FILE__)
+#define MLogFunc     NSLog(@"%s", __FUNCTION__)
+#define MLogLine     NSLog(@"%s", __LINE__)
+#define MLogCode     NSLog(@"Func:%s, Line:%d", __FUNCTION__, __LINE__)
+/// 不打印方法和行号打印
+#define MLog(...)    NSLog(__VA_ARGS__)
+#define MLogP(obj)   NSLog(@"%p", (obj))
+#define MLog0X(obj)  NSLog(@"%lld:%#llX", ((long long)obj), ((long long)obj))
+#define MLog08(obj)  NSLog(@"%lld:%#llO", ((long long)obj), ((long long)obj))
+#else
+/// 打印方法和行号打印
+#define MLog(...)    NSLog(__VA_ARGS__); MLogCode
+#define MLogP(obj)   NSLog(@"%p", (obj)); MLogCode
+#define MLog0X(obj)  NSLog(@"%lld:%#llX", ((long long)obj), ((long long)obj)); MLogCode
+#define MLog08(obj)  NSLog(@"%lld:%#llO", ((long long)obj), ((long long)obj)); MLogCode
+#endif
+#else
+/// Release 不打印
+#define MLog(...)
+#define MLogP(x)
+#define MLog0X(x)
+#define MLog08(x)
+#define MLogFile
+#define MLogFunc
+#define MLogLine
+#define MLogCode
 #endif
 
 #endif /* MCoreBaseMacro_h */

@@ -22,6 +22,7 @@
 #import "MCoreHeader.h"
 #import "MCoreBase.h"
 #import "MCoreBaseMacro.h"
+#import "MCoreDevice.h"
 #import "MCoreCategory.h"
 #import "MCoreUI.h"
 #import "MCoreUIError.h"
@@ -50,6 +51,9 @@
 #import "MWXMiniProgram.h"
 /// Category
 #import "UIViewController+Ex.h"
+#import "UIView+Ex.h"
+#import "UIColor+Ex.h"
+#import "NSString+Ex.h"
 
 FOUNDATION_EXPORT double libmVersionNumber;
 FOUNDATION_EXPORT const unsigned char libmVersionString[];
