@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/MCoreCategory.h</key>
 		<data>
-		P1jKQ3mZRdhmQLmcQXOuFaWbPgI=
+		/7t8rXikPvWemYMhw2+FB/5eIQo=
 		</data>
 		<key>Headers/MCoreDevice.h</key>
 		<data>
@@ -132,17 +132,13 @@
 		<data>
 		TaLd1lwklZ1gBTNLm1Gt+GFz/9Q=
 		</data>
-		<key>Headers/UIViewController+Ex.h</key>
-		<data>
-		T5NvDfqe+qxYuWvOX2b+qYmTMrI=
-		</data>
 		<key>Headers/libm.h</key>
 		<data>
 		PcxhsZxGt9BeEnmIDL3ZC66qyVE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vM0WcCQ13sUD5BuE8s0uG6+YyQA=
+		EMykUqFpxIEXsJOVw3Ln3SzR22g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -150,7 +146,7 @@
 		</data>
 		<key>README.md</key>
 		<data>
-		jktEpOmtfCc/5xR/PIC95ULA3VM=
+		EbeOhOPik8YCacnEMpL7IDWQYe8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -181,11 +177,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			P1jKQ3mZRdhmQLmcQXOuFaWbPgI=
+			/7t8rXikPvWemYMhw2+FB/5eIQo=
 			</data>
 			<key>hash2</key>
 			<data>
-			wlKlrIsam51yMMwEmaVPJ075Rgb8rL+GS9QQhgUVbtc=
+			FhgZQv0MJAUGhDDqHW8HP4z/Axv+FIwfJlZeSFRteWk=
 			</data>
 		</dict>
 		<key>Headers/MCoreDevice.h</key>
@@ -507,17 +503,6 @@
 			m9rDhK+aixaNoXSQtYjgi3ZwkRjGqAz9LylZJSxDbxU=
 			</data>
 		</dict>
-		<key>Headers/UIViewController+Ex.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			T5NvDfqe+qxYuWvOX2b+qYmTMrI=
-			</data>
-			<key>hash2</key>
-			<data>
-			mFJ8kDEJFWlAhrbBtk8z7O9gpExFgjbOiVW2nRUA6Vs=
-			</data>
-		</dict>
 		<key>Headers/libm.h</key>
 		<dict>
 			<key>hash</key>
@@ -544,11 +529,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jktEpOmtfCc/5xR/PIC95ULA3VM=
+			EbeOhOPik8YCacnEMpL7IDWQYe8=
 			</data>
 			<key>hash2</key>
 			<data>
-			/gKTf6/325EiBcmFT1PzorABK9C4kZZV6aPIep2IGJM=
+			ppmM8qcj1zIChmhYYxvezi94/cI5HhwMaTTDIPONOaA=
 			</data>
 		</dict>
 	</dict>

@@ -1,5 +1,5 @@
 # libm
-libm 是私人的快速开发库
+libm 是快速开发库
 
 包括以下组件：
 1. 基础组件：MCoreBase
